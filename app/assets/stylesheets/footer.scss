@@ -1,0 +1,27 @@
+@import 'application';
+
+
+.footer {
+    bottom: 0;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 5px auto 0;
+    max-width: $max-width;
+    text-align: center;
+    font-size: 85%;
+    font-weight: 300;
+
+    a {
+        color: #757575;
+    }
+
+    .github-link {
+      margin: 0px 30px;
+    }
+}
+
+

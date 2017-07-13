@@ -1,6 +1,6 @@
 /* GENERAL VARIABLES */
-$font-stack: 'Lato', sans-serif;
-$font-logo:'Lobster Two', cursive;
+$font-stack: 'Raleway', sans-serif;
+$font-logo:'Playfair Display', serif;
 $font-size-base: 16px;
 $font-size-small: 12px;
 $font-size-medium: 18px;
@@ -10,7 +10,7 @@ $font-size-logo: 40px;
 
 $font-color-main: #66FCF1;
 $font-color-white: #C5C6C7;
-$color-primary: #45A29E;
+$color-primary: #86939C;
 $color-secondary: #287fb8;
 $color-background: #0B0C10;
 $color-darkgrey: #1F2833;
@@ -29,7 +29,7 @@ $default-box-shadow: -2px 2px 8px #777;
 /* NAVBAR/FOOTER VARIABLES */
 $navbar-box-shadow: -2px 2px 8px #777;
 $navbar-font-size: 18px;
-$navbar-background-color: #FFF;
+$navbar-background-color: $color-background;
 $navbar-link-color: #555;
 $navbar-link-hover-color: $color-primary;
 $navbar-link-hover-background-color: lightgrey;

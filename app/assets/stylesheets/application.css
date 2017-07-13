@@ -22,5 +22,6 @@
 @import '_typography.scss';
 
 body {
-  background-color: $color-background;
+  background: image-url('forest.jpg');
+  background-size: 100%;
 }

@@ -26,4 +26,3 @@ Things you may want to cover:
 USING Ruby 2.4.1p111, Rails 5.0.2.
 
 SETUP
-testing

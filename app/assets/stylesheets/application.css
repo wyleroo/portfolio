@@ -31,3 +31,9 @@ body {
   flex-direction: column;
   margin: 10% 5%;
 }
+
+.navbar {
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}

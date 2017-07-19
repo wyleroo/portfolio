@@ -1,8 +1,8 @@
 @import 'application';
 
-
 .footer {
-    bottom: 0;
+    position: fixed;
+    bottom: 2%;
     color: white;
     display: flex;
     flex-direction: row;
@@ -19,8 +19,15 @@
         color: #757575;
     }
 
-    .github-link {
-      margin: 0px 30px;
+    .link-container {
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 50%;
+    }
+
+    .git-link {
+        align-self: auto;
+        margin: 0px 30px;
     }
 }
 

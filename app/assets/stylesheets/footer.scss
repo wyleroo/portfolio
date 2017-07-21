@@ -1,0 +1,41 @@
+@import 'application';
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 5px auto;
+    text-align: center;
+    font-size: 85%;
+    font-weight: 300;
+    color: $color-darkgreen;
+
+    a {
+        color: $color-darkgreen;
+    }
+
+    .link-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        // width: 50%;
+        justify-content: center;
+    }
+
+    .git-link {
+        align-self: auto;
+        margin: 0px 30px;
+        width: 20%;
+    }
+
+    .footer-text{
+        margin-top: 1%;
+    }
+}
+
+

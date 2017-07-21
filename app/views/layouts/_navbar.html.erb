@@ -1,14 +1,23 @@
 <div class='navbar-wrapper'>
   <div class='navbar'>
+
     <div class='nav-brand'>
       <%= link_to :root do %> Wyatt Robinson<% end %>
     </div>
-    <div class='nav-btn'>
-      <label for='nav-check'>
-        <span></span>
-        <span></span>
-        <span></span>
-      </label>
+
+    <div class='nav-links'>
+        <span class='nav-link'>
+          <%= link_to "Projects", projects_index_path %>
+        </span>
+
+        <span class='nav-link'>
+          <%= link_to "CV", resume_index_path %>
+        </span>
+
+        <span class='nav-link'>
+          <%= link_to "Photography", photography_index_path %>
+        </span>
     </div>
+
   </div>
 </div>

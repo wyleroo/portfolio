@@ -1,18 +1,12 @@
 // Place all the styles related to the Welcome controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
-
-.container {
-  display: flex;
-  flex-direction: column;
-}
-
-.navbar {
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}
+@import 'application';
 
 h1 {
   color: white;
+}
+
+p {
+  background-color: $color-secondary;
 }

@@ -5,30 +5,11 @@
     </div>
     <div class='projects-list'>
 
-      <div class='projects-item'>
-        <p class='item-title'>FindMeFriends</p>
-        <p class='item-description'>
-          Matching like minded people together based on mutual interests. Built with React on Rails, using Postgres as a database and hosted on Heroku. Key features include the ability to modify interests on the fly, dual-party consent to friendships, and live-updates on profile dashboard.
-        </p>
-        <a class='item-link' href="http://findmefriends.herokuapp.com/">Link.</a>
-      </div>
-
-      <div class='projects-item'>
-        <p class='item-title'>Butterlist</p>
-        <p class='item-description'>
-          Intelligent to-do list that organizes your items into basic categories. Built using ExpressJS, jQuery, Bulma, with Postgres database. Utilizes Google Custom Search API to automate categorization.
-        </p>
-        <p class='item-link' href="http://butterlist.herokuapp.com">Link.</p>
-      </div>
-
-      <div class='projects-item'>
-        <p class='item-title'>Chatty</p>
-        <p class='item-description'>
-          Badda bing badda boom.
-        </p>
-        <p class='item-link'>Link.</p>
-      </div>
+      <%= render '/projects/find_me_friends.erb.html' %>
+      <%= render '/projects/butterlist.erb.html' %>
+      <%= render '/projects/chatty.erb.html' %>
 
     </div>
+
   </div>
 </body>

@@ -2,8 +2,8 @@
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
  *
- * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
- * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
  *
  * You're free to add application-wide styles to this file and they'll appear at the bottom of the
  * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
@@ -13,27 +13,3 @@
  *= require_tree .
  *= require_self
  */
-
-@import url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900i');
-@import url('https://fonts.googleapis.com/css?family=Playfair+Display:700');
-@import url('http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css');
-@import 'css_reset';
-@import '_variables.scss';
-@import '_typography.scss';
-
-body {
-  background-color: $color-background
-}
-
-.text-container {
-  display: flex;
-  flex-direction: column;
-  margin: 10% 5%;
-  color: $font-color-main;
-}
-
-.navbar {
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-}

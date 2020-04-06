@@ -1,24 +1,21 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a generic portfolio site which I'll use to present my CV and creative outlets here and there.
 
-Things you may want to cover:
+- Ruby 2.6.3
+- Rails 5.2.4.2
 
-* Ruby version
+- System dependencies
 
-* System dependencies
+  - Bootstrap
+  - [Devise](https://github.com/heartcombo/devise) for authentication
 
-* Configuration
+- Configuration
 
-* Database creation
+- Database creation
 
-* Database initialization
+- Database initialization
 
-* How to run the test suite
+- Deployment instructions
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+- ...
